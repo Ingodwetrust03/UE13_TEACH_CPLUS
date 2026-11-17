@@ -25,3 +25,22 @@ void AMyActor::Tick(float DeltaTime)
 
 }
 
+FString AMyActor::PrintText_Implementation(const FString& SomeText, const FColor& TextColor)
+{
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, TextColor, SomeText);
+	return SomeText;
+}
+
+FString AMyActor::PrintLongRedText_Implementation(const FString& SomeText)
+{
+
+	return PrintText(TEXT("Дополненный текст на основе результата функции PrintText: ") + SomeText + TEXT(" "), FColor::Red);
+}
+
+
+
+FString AMyActor::GetSumInTextFormat_Implementation(int32 A, int32 B)
+{
+	int32 sum = A+B;
+	return PrintText(TEXT("Результат сложения: ") + FString::FromInt(sum) + TEXT(" "), FColor::Black);
+}

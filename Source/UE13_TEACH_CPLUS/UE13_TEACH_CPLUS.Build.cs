@@ -25,19 +25,6 @@ public class UE13_TEACH_CPLUS : ModuleRules
 
 		PublicIncludePaths.AddRange(new string[] {
 			"UE13_TEACH_CPLUS",
-			"UE13_TEACH_CPLUS/Variant_Platforming",
-			"UE13_TEACH_CPLUS/Variant_Platforming/Animation",
-			"UE13_TEACH_CPLUS/Variant_Combat",
-			"UE13_TEACH_CPLUS/Variant_Combat/AI",
-			"UE13_TEACH_CPLUS/Variant_Combat/Animation",
-			"UE13_TEACH_CPLUS/Variant_Combat/Gameplay",
-			"UE13_TEACH_CPLUS/Variant_Combat/Interfaces",
-			"UE13_TEACH_CPLUS/Variant_Combat/UI",
-			"UE13_TEACH_CPLUS/Variant_SideScrolling",
-			"UE13_TEACH_CPLUS/Variant_SideScrolling/AI",
-			"UE13_TEACH_CPLUS/Variant_SideScrolling/Gameplay",
-			"UE13_TEACH_CPLUS/Variant_SideScrolling/Interfaces",
-			"UE13_TEACH_CPLUS/Variant_SideScrolling/UI"
 		});
 
 		// Uncomment if you are using Slate UI
